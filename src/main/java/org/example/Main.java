@@ -25,6 +25,9 @@ public class Main {
 
 
         System.out.println("--------------------------");
+        //Aufrufe der Methode ,um die ID zu ändern
+        // System.out.println(animal1.withId(100));
+
 
         // Aufrufe der Methode im record (Zoo), die den Gesamtfutterbedarf aller Tiere im Zoo berechnen kann.
         System.out.println("How much feed requirement does a zoo have per day?");
