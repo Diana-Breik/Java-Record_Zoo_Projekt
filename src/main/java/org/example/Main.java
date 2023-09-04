@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.List;
+
 //In Eurer main-Methode, lasst mehrere `Animal`-Objekte die gleiche `Species` haben.
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +25,9 @@ public class Main {
 
 
         System.out.println("--------------------------");
+
+        // Aufrufe der Methode im record (Zoo), die den Gesamtfutterbedarf aller Tiere im Zoo berechnen kann.
+        System.out.println("How much feed requirement does a zoo have per day?");
+        System.out.println(new Zoo(List.of(animal1,animal2)).calculateTheTotalFeedRequirementOfAllAnimals());
     }
 }
